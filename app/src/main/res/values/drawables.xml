@@ -1,0 +1,5 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_inicio" type="drawable" icon="@drawable/ic_menu_inicio"></item>
+    <item name="ic_menu_gallery" type="drawable" icon="@drawable/ic_menu_placas"></item>
+    <item name="ic_menu_sobre" type="drawable" icon="@drawable/ic_menu_sobre"></item>
+</resources>

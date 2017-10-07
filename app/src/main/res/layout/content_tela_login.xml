@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jonathan.projetodesloq.Aplicacao"
+    tools:showIn="@layout/activity_tela_login"
+    android:background="#696969"
+    android:orientation="vertical">
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#777"
+        android:layout_marginBottom="15dp"
+        />
+    -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-light"
+        android:editable="false"
+        android:text="Já possui uma conta?"
+        android:textSize="20dp"
+        android:linksClickable="true"
+        android:textColorLink="@color/colorPrimary"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        >
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/ic_login"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#fff"
+            android:backgroundTint="#fff"
+            android:id="@+id/EditUsuario"
+            android:textColorHighlight="#fff"
+            android:hint="Usuario"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        >
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/forma"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditSenha"
+            android:textColorHint="#fff"
+            android:backgroundTint="#fff"
+            android:hint="Senha"
+            android:password="true"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="sans-serif-light"
+        android:textSize="25px"
+        android:background="@drawable/botao"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:id="@+id/Botao_login"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ou"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastra-se"
+        android:fontFamily="sans-serif-light"
+        android:textSize="23px"
+        android:background="@drawable/botao"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:id="@+id/Botao_Cad"
+        />
+
+</LinearLayout>
